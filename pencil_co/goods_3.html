@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Pencil & Co.</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{ url_for('static', path='./pencil_co/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  
+
+  <!-- Custom styles for this template -->
+  <link href="{{ url_for('static', path='./pencil_co/css/scrolling-nav.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='./pencil_co/css/custom.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='./pencil_co/css/mediaquery.css') }}" rel="stylesheet">
+
+  <style>
+
+.wrap in {
+    width:300px;
+    height:300px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-150px;
+    margin-top:-150px;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: groove;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button:hover {
+  background-color: #989898;
+  box-shadow: 0px 15px 20px rgba(0, 0, 255, .2);
+  color: #fff;
+  transform: translateY(-7px);
+}
+</style>
+
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="/">Pencil & Co.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/">Home</a>
+          </li>
+          &nbsp;
+          
+          </li>
+          &nbsp;
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Shop
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="nav-link js-scroll-trigger" href="/Goods">Goods</a>
+            </div>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/Event">Event</a>
+            </div>            
+          </li>
+
+          &nbsp;
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+<!-- content -->
+  <section class="about">
+    <div class="container">
+      <center><h2>EcoWrite</h2></center>
+      <br><br><br>
+
+      <center><b>Property</b></center>
+      <center>Eco-Friendly Style (Conscious + Warm)</center>
+
+      <br><br>
+
+      <center><img class="goodsarticle3_image" src="{{ url_for('static', path='pencil_co/paper_picture/soun_paper_1.png') }} " align="center"></center>
+              <!-- img src="/paper_picture/KMA.png" height="80" width="80" align="left" -->
+           
+            <div class="col">
+             
+              <!-- div style="padding:100px;"#688FF4 -->
+
+              <p style="line-height: 1;"> &nbsp; </p>
+              <p class="goodsarticle3_text" style="font-size:1.0em; ">20The EcoWrite No.1 is a pencil you can feel good about.
+                <br><br>Made from 100% recycled wood and non-toxic paint, this pencil brings sustainability to the palm of your hand—without compromising on performance.
+                <br><br>Write, draw, and erase your thoughts with purpose.</p>
+              <br>
+         
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+  <br>
+  </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright 2025 ⓒ Pencil & Co. All rights reserved.</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{ url_for('static', path='./pencil_co/vendor/jquery/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', path='./pencil_co/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{{ url_for('static', path='./pencil_co/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="{{ url_for('static', path='./pencil_co/js/scrolling-nav.js') }}"></script>
+
+</body>
+
+</html>

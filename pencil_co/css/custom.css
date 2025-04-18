@@ -1,0 +1,48 @@
+body {
+  position: relative;
+  max-width: 1300px;
+  margin: auto;
+  padding-top: 0px;
+  overflow-x: hidden;
+  background-color: #3333;
+}
+
+section {
+  background-color: white;
+}
+
+.fixed-top {
+  margin: auto;
+  max-width: 1300px;
+}
+
+.box {
+  padding: 20px;
+  min-height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.image-wrapper {
+  float: right;
+}
+
+.profile-image-wrapper {
+  text-align: center;
+}
+
+.profile-image {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.profile-description {
+  padding: 20px;
+}
+
+.about{
+  min-height: 87vh
+}
+
+.text-black{
+  height: 15px;
+}
